@@ -41,7 +41,7 @@ function changeFontColorOne() {
 }
 
 function changeFontColorTwo() {
-	document.querySelector('.weddingInvitation').style.color = '`#8F9779';
+	document.querySelector('.weddingInvitation').style.color = '#8F9779';
 }
 
 function changeFontColorThree() {
