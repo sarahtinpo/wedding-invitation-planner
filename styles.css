@@ -2,12 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+	background-color: snow;
 }
 
 .header {
   display: flex;
   width: 900px;
   justify-content: space-evenly;
+}
+
+.titleAndButtons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .pageTitle {
