@@ -6,11 +6,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wedding Invitation Planner</title>
 	<link rel = "stylesheet" href = "styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Cormorant:ital,wght@1,300&family=Jost:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+
 </head>
 <body>
-	<div class = "row">
-		<div class = "columnOne">Hello</div>
-		<div class = "columnTwo">Hello</div>
+	<div class = "content">
+	
+	<div class = "header">
+		<div >
+			<img class = "titlePic" src = "images/groom-suit.png" alt = "Groom in suit">
 	</div>
+	<div class = "titleAndButtons">
+		<h1 class = "pageTitle">Wedding Invitation Planner</h1>
+	<hr class = "titleLine">
+	<div class = "buttonContainer">
+		<button class = "button" id = "btnOne" type = "button">spring</button>
+		<button class = "button" id = "btnTwo" type = "button">minimal</button>
+		<button class = "button" id = "btnThree" type = "button">vintage</button>
+	</div>
+	</div>
+		<div>
+			<img  class = "titlePic" src = "images/bride-dress.png" alt = "Bride in dress">
+		</div>
+	</div>
+
+	<div class = "weddingContainer">		
+		<div class = "weddingInfo">
+			<label for = "brideName">Bride's Name:</label><br>
+			<input class = "inputBox" type = "text" id = "brideName" name = "brideName" value="Sarah"><br>
+			<label for = "groomName">Groom's Name:</label><br>
+			<input class = "inputBox" type = "text" id = "groomName" name = "groomName" value="Brian"><br>
+			<label for = "date">Date:</label><br>
+			<input class = "inputBox" type = "text" id = "date" name = "date" value = "27th October 2022"><br>
+			<label for = "time">Time:</label><br>
+			<input class = "inputBox" type = "text" id = "time" name = "time" value = "6pm"><br>
+			<label for = "location">Wedding Location:</label><br>
+			<input class = "inputBox" type = "text" id = "location" name = "location" value="Chateau de Versailles">
+		</div>
+		<div class = "weddingInvitation styleOne">
+			<p id = "brideNameOne">Sarah</p>
+			<p id = "andPunctuation">&</p>
+			<p id = "groomNameOne">Brian</p>
+			<p id = "invitationPhrase">along with their families<br>
+				request the pleasure of your company as<br>
+				they celebrate their wedding</p>
+			<p id = "weddingDate">27th October 2022</p>
+			<p id = "weddingTime">at 6pm</p>
+			<p id = "weddingLocation">Chateau de Versailles</p>
+		</div>
+	</div>
+	<script src = 'script.js'></script>
 </body>
 </html>
