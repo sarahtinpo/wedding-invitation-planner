@@ -140,3 +140,7 @@
 .button:hover {
   background-color: #FFF5EE;
 }
+
+#resetBtn {
+  cursor: pointer;
+}
