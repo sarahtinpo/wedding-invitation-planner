@@ -78,6 +78,8 @@ const groomNameInput = document.getElementById('groomName');
 const dateInput = document.getElementById('date');
 const timeInput = document.getElementById('time');
 const locationInput = document.getElementById('location');
+const resetBtn = document.getElementById('resetBtn');
+const inputs = document.querySelectorAll('.inputBox');
 
 function displayBrideName() {
   document.querySelector('#brideNameOne').innerHTML = brideNameInput.value;
@@ -104,3 +106,8 @@ groomNameInput.addEventListener('input', displayGroomName);
 dateInput.addEventListener('input', displayDate);
 timeInput.addEventListener('input', displayTime);
 locationInput.addEventListener('input', displayLocation);
+resetBtn.addEventListener('click', () => {
+  console.log(inputs)
+  inputs.forEach(input => input.value = '');
+})
+

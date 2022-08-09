@@ -57,6 +57,11 @@
   box-shadow:0 0 10px 4px rgba(0,0,0,0.06);
 }
 
+#resetBtn {
+  width: 100px;
+  margin: auto;
+}
+
 .weddingInvitation {
   background-image: url(images/cherryblossom.jpg);
   background-size: cover;
@@ -103,6 +108,9 @@
 
 #weddingLocation {
   font-size: 20px;
+  word-wrap: break-word;
+  width: 200px;
+  margin: 16px auto;
 }
 
 .buttonContainer {
